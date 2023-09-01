@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>my resume</title>
+        <style>
+           footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #45a1ff;
+  color: #fff;
+}
+
+        </style>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+       <center>
+        <h1 style="background-color: aquamarine;"><font size="10" color="red">PRAVEEN TRIPATHI
+
+            </font>
+        </h1>
+       </center> 
+       <center>
+        <img src="./images/1693551518491.jpg" height="400" alt="praveen tripathi's photo" />
+       </center>
+       <hr />
+       <br />
+       <h2>about me:</h2>
+       <p style="background-color: aliceblue;">
+        <font size="4">
+            Hi, Myself Praveen tripathi and I'm a student of Computer Science and Engineering, 
+             currently i'm pursuing my B.tech in c.s from F.G.I.E.T Raebareli.<br />
+            <font size="4" color="blue">Graduation:</font> B.tech(will accomplished in 2025 currently in 3rd year)<br />
+            <font size="4" color="blue">Intermediate:</font>completed in 2020 from shri shiv pratap inter college Amethi.<br />
+            <font size="4" color="blue">Highschool:</font> in 2018 from S.S.P.I.C Amethi<br />
+            <font size="4" color="blue">Primary Education:</font> till 8th standard studied in Saryu Devi Saraswati Shishu Mandir Keshav Nagar Amethi<br />
+        </font>
+       </p>
+       <hr />
+       <br />
+       <h2>Skills:</h2>
+       <p style="background-color: aliceblue;">
+        <font size="4">
+        Programming in C,C++ and Python,Web developement using html,css and javascript.  
+        </font>
+       </p>
+       <hr />
+       <br />
+       <h2>Marksheets:</h2>
+       <article style="background-color: aliceblue;">
+       <p><font size="4">Intermediate:
+        <a href="./public/new1.html">click here</a>
+       </font></p>
+       <p><font>Highschool:
+        <a href="./public/new2.html">click here</a>
+       </font></p>
+       </article>
+       
+       <hr />
+       <br />
+       <h2>Contact Me:</h2>
+       <font size="4">
+        <a href="./public/new3.html">click here</a>
+       </font>
+       <hr />
+       <br />
+       <button id="like" onclick="liked()">
+        <i class="fa fa-thumbs-up"></i>
+        <span class="icon">Like</span>
+      </button>
+      <script>
+        function liked(){
+          var element = document.getElementById("like");
+          element.classList.toggle("liked");
+        }
+      </script>
+       <hr />
+       <br />
+       <article>
+        <footer>
+            <p>© designed in 2023 by praveen tripathi</p>
+           </footer>
+       </article> 
+       <hr />
+        
+     </body>
+</html>
